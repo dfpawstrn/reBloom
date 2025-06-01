@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#crop-grid {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.grid-item {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.grid-item:hover {
+    background-color: #ffefd5;
+    transform: scale(1.05);
+}
+
+#crop-calendar {
+    padding: 20px;
+}
+
+#calendar-content {
+    min-height: 200px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #fafafa;
+}
+
+nav {
+    font-family: "Open Sans",sans-serif;        /* Usar a font "Open Sans" do Google Fonts*/
+
+    gap: 20px;
+    padding: 5px 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color : black;
+    text-align: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: lighter;
+    padding: 5px 10px;
+    transition: color 0.3s;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+nav a:hover  {
+    color:#008000; /* Mudar cor de links on hover*/
+}
+.navbar-logo {
+    height:90px; /* Adjust size as needed */
+    margin-right: 20px;
+    vertical-align: middle;
+
+}
+
+#crop-calendar h2 {
+    text-align: center;
+}

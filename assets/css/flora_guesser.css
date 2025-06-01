@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.intro-text h1 {
+    text-align: center;
+
+}
+/*Styling da intro <section>*/
+#intro {
+    font-family: "Open Sans",sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+#intro h1 {
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    color:#008000;
+
+
+}
+#intro p {
+    font-family: "Open Sans",sans-serif;
+    margin: 10px 0;
+    font-size: 1.3rem;
+
+}
+
+/* Styling da barra de navegação*/
+
+nav {
+    font-family: "Open Sans",sans-serif;        /* Usar a font "Open Sans" do Google Fonts*/
+
+    gap: 20px;
+    padding: 5px 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color : black;
+    text-align: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: lighter;
+    padding: 5px 10px;
+    transition: color 0.3s;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+nav a:hover  {
+    color:#008000; /* Mudar cor de links on hover*/
+}
+.navbar-logo {
+    height:90px; /* Adjust size as needed */
+    margin-right: 20px;
+    vertical-align: middle;
+
+}
+
+.banner-video video {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9; /* Adjust based on your video */
+    background-color: black; /* Black bars for letterboxing */
+}
+
+/* Banner Video Styling */
+.banner-video {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video maintains aspect ratio */
+}
+
+/* Ensure <h1> and <p> inside the banner are visible */
+.banner-video h1, .banner-video p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    margin: 0;
+}
+
+.banner-video h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-video p {
+
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 50px;
+    top: 400px;
+    padding-top: 40px;
+
+}
+
+/* Overlay Button Styling */
+.overlay-btn {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.overlay-btn:hover {
+    opacity: 1;
+}
+
+/*Posicionamento em relação ao top do screen - https://www.w3schools.com/css/css_positioning.asp*/
+/* Positioning Play/Pause Buttons */
+#video-btn {
+    top: -50px; /* Move it above the video */
+    left: 10px;
+}
+
+
+#sound-btn {
+    top: 10px;
+    left: 50px; /* Adjust spacing as needed */
+}
+
+/* "Jogar" Button Styling */
+#jogar-btn {
+    position: absolute;
+    bottom: -40px; /* Slightly above the video */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#jogar-btn:hover {
+    background-color: #006600;
+}
+
+/* Ensure the banner content (h1 and p) is centered */
+.banner-video {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensure text aligns in the center */
+    height: 100%; /* Ensure it spans the container */
+}
+
+.banner-video h1, .banner-video p {
+    margin: 0; /* Prevent unwanted margins */
+    color: white; /* Optional: Ensure text is visible over the video */
+    z-index: 2; /* Ensure text is above the video */
+}
+
+/* Button styling */
+.overlay-btn {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    z-index: 3; /* Ensure buttons appear above the video */
+    transition: opacity 0.3s;
+}
+
+.overlay-btn:hover {
+    opacity: 1;
+}
+
+/* Positioning Play/Pause Button */
+#video-btn {
+    top: 10px;
+    left: 10px;
+}
+
+/* Positioning Sound Button */
+#sound-btn {
+    top: 10px;
+    left: 100px; /* Adjust distance from video button */
+}
+
+/* Styling "Jogar" Button */
+#jogar-btn {
+    position: absolute;
+    bottom: -50px; /* Slightly above the video */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#jogar-btn:hover {
+    background-color: #006600;
+}
+
+/* Positioning the Start Game button */
+#start-game-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start-game-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-game-btn:hover {
+    background-color: #006600;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+footer {
+    font-family: "Open Sans",sans-serif;        /* Usar a font "Open Sans" do Google Fonts*/
+
+    gap: 20px;
+    padding: 5px 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color : black;
+    text-align: center;
+
+}

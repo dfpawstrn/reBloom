@@ -1,0 +1,130 @@
+/* Styling do body incluindo font a ser usada na página*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styling do header */
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+/* Styling da barra de navegação */
+
+nav {
+    display: flex;          /* flex - metodo de layout para organizar as linhas da navbar | https://www.w3schools.com/css/css3_flexbox.asp */
+    align-items: center;
+    justify-content: space-between; /* Define como o browser distribui o espaçamento entre e à volta dos elementos do conteúdo - https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #008000;
+}
+
+.navbar-logo {
+    height: 10vh;         /*Manipulação do tamanho do logo com viewport units (viewport height especificamente)*/
+    margin-right: 20px;
+}
+
+#topBanner {
+    width: 40%; /* Adjust the image size as needed */
+    max-width: 300px; /* Optional: Set a max width for smaller screens */
+    height: auto;
+}
+
+#sobre-nos h1 {
+    font-size: 2rem;
+    color: #008000;
+}
+
+#sobre-nos p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #555;
+    padding: 30px;
+}
+
+/* Secção de funcionalidades */
+#funcionalidades {
+    text-align: center;
+    padding: 40px 20px;
+}
+.funcionalidade-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.funcionalidade-item h3 {
+    font-size: 1.5rem;
+    color: #008000;
+}
+.funcionalidade-item p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
+#funcionalidades h2 {
+    font-size: 1.8rem;
+    color: #008000;
+    margin-bottom: 20px;
+}
+
+.funcionalidade-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.funcionalidade-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #008000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.funcionalidade-link:hover {
+    background-color: #006600;
+}
+
+/* Footer Styling */
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-nav a {
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-nav a:hover {
+    color: #008000;
+}
+
+#contentContainer {
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 20px; /* Adds space between the image and the text */
+}

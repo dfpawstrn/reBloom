@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora Guesser</title>
+    <link rel="stylesheet" href="assets/css/flora_guesser.css"> <!-- Assuming consistent styling across pages -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navigation Bar -->
+<header id="nav-bar">
+    <nav>
+        <a href="index.html>"><img id="reBloom-logo" src="assets/img/Icons/reBloom.png" alt="logo" class="navbar-logo"></a>
+        <a href="index.html">Página Inicial</a>
+        <a href="micro_escala.html">Cultivo em micro-escala</a>
+        <a href="pequena_escala.html">Cultivo em pequena escala</a>
+        <a href="calendário_colheita.html">Calendário de cultivo</a>
+        <a href="flora_guesser.html">Adivinha a planta!</a>
+    </nav>
+</header>
+
+<!-- Banner Section -->
+<!-- inclusão de video na div game-banner | https://www.shecodes.io/athena/42122-how-to-insert-a-video-banner-with-text-on-a-website#:~:text=Add%20the%20video%20to%20the,src%3D"your-video. -->
+
+<section id="game-banner">
+    <div class="banner-video" id="banner-video">
+        <h1>Adivinha a planta</h1>
+        <p>Testa o teu conhecimento sobre botânica!</p>
+        <video id="video" autoplay muted loop>
+            <source src="assets/media/home-garden.mp4" type="video/mp4">
+        </video>
+        <button id="video-btn" class="overlay-btn">▶</button>
+        <button id="sound-btn" class="overlay-btn">🔊</button>
+    </div>
+    <!-- New Start Game Button -->
+    <div id="start-game-container">
+        <button id="start-game-btn">Iniciar Jogo</button>
+    </div>
+</section>
+
+<!-- Main Content Area -->
+<main id="game-content">
+    <div class="game-container">
+        <!-- Game Placeholder -->
+
+        </div>
+
+        <div id="game-feedback" class="feedback hidden">
+            <p id="feedback-text"></p>
+        </div>
+
+        <div id="scoreboard" class="scoreboard">
+            <p> <span id="score"></span></p>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="footer-content">
+        <p></p>
+    </div>
+</footer>
+
+<!-- Script -->
+<script src="assets/js/flora_guesser.js"></script>
+</body>
+
+</html>
