@@ -16,5 +16,17 @@ Each page uses responsive CSS, video banners, and interactive JavaScript to enha
 - Hosted on GitHub Pages (optional; see below)
 
 - ## Repository Structure
-
- ```text reBloom/ ├── assets/ │ ├── css/ │ │ ├── index.css │ │ ├── micro_escala.css │ │ └── pequena_escala.css │ ├── js/ │ │ ├── index.js │ │ ├── micro_escala.js │ │ ├── pequena_escala.js │ │ ├── calendario_colheita.js │ │ └── flora_guesser.js │ └── img/ (all your screenshot images, icons, etc.) │ ├── media/ (videos, sounds) ├── index.html ├── micro_escala.html ├── pequena_escala.html ├── calendário_colheita.html ├── flora_guesser.html ├── LICENSE ├── README.md ```
+```
+reBloom/
+├─ index.html
+├─ micro_escala.html
+├─ pequena_escala.html
+├─ calendário_colheita.html
+├─ flora_guesser.html
+├─ assets/
+│   ├─ css/
+│   ├─ js/
+│   └─ img/
+├─ LICENSE
+├─ README.md
+```
