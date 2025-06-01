@@ -13,6 +13,9 @@ reBloom is a small web application designed to help urban gardeners plan and lea
 > **Academic Context:**  
 > reBloom was built as part of the Multimedia Laboratory 3, a Module of the Multimedia and Communication Technologies course from the University of Aveiro, Portugal. It is not a commercial or production application but rather a student project, demonstrating HTML/CSS/JS skills and an understanding of web-based interactions and user interfaces.
 
+Each page uses responsive CSS, video banners, and interactive JavaScript to enhance user experience.
+
+
 ---
 
 ## Live Demo
@@ -20,8 +23,6 @@ reBloom is a small web application designed to help urban gardeners plan and lea
 Check out the live version here:  
 https://dfpawstrn.github.io/reBloom/
 
-
-Each page uses responsive CSS, video banners, and interactive JavaScript to enhance user experience.
 
 ## Tech Stack  
 - **HTML5 / CSS3 / JavaScript (ES6)**  
