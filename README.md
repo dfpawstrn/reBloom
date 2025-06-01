@@ -11,7 +11,7 @@ reBloom is a small web application designed to help urban gardeners plan and lea
 - A **responsive layout** using HTML, CSS, and vanilla JavaScript—no frameworks—so you can open any page locally in a browser or view it via GitHub Pages.
 
 > **Academic Context:**  
-> reBloom was built as part of the Multimedia Laboratory 3, a Module of the Multimedia and Communication Technologies course from the University of Aveiro, Portugal. It is not a commercial or production application but rather a student project, demonstrating HTML/CSS/JS skills and an understanding of web-based interactions and user interfaces.
+> reBloom was built as part the Multimedia and Communication Technologies degree from the University of Aveiro, Portugal. It is not a commercial or production application but rather a student project, demonstrating HTML/CSS/JS skills and an understanding of web-based interactions and user interfaces.
 
 Each page uses responsive CSS, video banners, and interactive JavaScript to enhance user experience.
 
